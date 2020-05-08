@@ -1,6 +1,6 @@
 # ExcelQuickstats
 Excel with VB code to import Quickstats data using the NASS Quickstats API
-
+Blog post contains more explaination https://www.jeffkoenig.com/quickstats-api-using-excel/
 To use you will need to request an api key from NASS https://quickstats.nass.usda.gov/api
 
 Sub NASS_QS_API()
