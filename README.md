@@ -4,8 +4,9 @@ Blog post contains more explaination https://www.jeffkoenig.com/quickstats-api-u
 To use you will need to request an api key from NASS https://quickstats.nass.usda.gov/api
 
 Sub NASS_QS_API()
-Application.Calculation = xlCalculationManual
-Application.ScreenUpdating = False
+
+    Application.Calculation = xlCalculationManual
+    Application.ScreenUpdating = False
 
     Dim objRequest As Object
     Dim strUrl As String
@@ -43,7 +44,7 @@ Application.ScreenUpdating = False
             Split(strResponse2, Chr(34) & "," & Chr(34))
     Next
    
-Application.ScreenUpdating = True
-Application.Calculation = xlCalculationAutomatic
+    Application.ScreenUpdating = True
+    Application.Calculation = xlCalculationAutomatic
 End Sub
 
